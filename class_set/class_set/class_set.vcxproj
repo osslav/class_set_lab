@@ -151,7 +151,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="boolean_vector_source.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="set_source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="boolean_vector.h" />
+    <ClInclude Include="set.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
